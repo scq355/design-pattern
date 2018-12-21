@@ -1,6 +1,6 @@
 package com.summary.design.proxy.base_3;
 
-import com.qs.p2p.proxypattern.base_2.SchoolGirl;
+import com.summary.design.proxy.base_2.SchoolGirl;
 
 /**
  * Created by scq on 2018-03-22 15:03:28
