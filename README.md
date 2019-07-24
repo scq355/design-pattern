@@ -1,5 +1,7 @@
 # 大话设计模式
 
+[![Known Vulnerabilities](https://snyk.io//test/github/scq355/design-pattern/badge.svg?targetFile=pom.xml)](https://snyk.io//test/github/scq355/design-pattern?targetFile=pom.xml)
+
 ## 适配器模式
 
 ## 桥接模式
