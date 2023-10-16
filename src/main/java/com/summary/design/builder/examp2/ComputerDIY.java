@@ -1,5 +1,8 @@
 package com.summary.design.builder.examp2;
 
+import lombok.Data;
+
+@Data
 public class ComputerDIY {
 
     private String CPU;
@@ -16,42 +19,6 @@ public class ComputerDIY {
         this.SSD = computerBuilder.SSD;
         this.power = computerBuilder.power;
         this.computerCase = computerBuilder.computerCase;
-    }
-
-    public String diy(){
-        final StringBuilder sb = new StringBuilder("电脑配置如下：\n");
-        sb.append("     CPU：")
-                .append(CPU).append('\n');
-        sb.append("     主板:")
-                .append(mainboard).append('\n');
-        sb.append("     内存：")
-                .append(memory).append('\n');
-        sb.append("     SSD：")
-                .append(SSD).append('\n');
-        sb.append("     电源：")
-                .append(power).append('\n');
-        sb.append("     机箱：")
-                .append(computerCase).append('\n');
-        sb.append("正在组装中...").append('\n');
-        sb.append("组装完成！").append('\n');
-        return sb.toString();
-    }
-
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("{");
-        sb.append("\"CPU\":\"")
-                .append(CPU).append('\"');
-        sb.append(",\"mainboard\":\"")
-                .append(mainboard).append('\"');
-        sb.append(",\"memory\":\"")
-                .append(memory).append('\"');
-        sb.append(",\"SSD\":\"")
-                .append(SSD).append('\"');
-        sb.append(",\"power\":\"")
-                .append(power).append('\"');
-        sb.append('}');
-        return sb.toString();
     }
 
     public static class ComputerBuilder{

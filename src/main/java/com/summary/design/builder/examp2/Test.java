@@ -10,6 +10,6 @@ public class Test {
                 .buildPower("美商海盗船")
                 .buildComputerCase("普通机箱")
                 .build();
-        System.out.println(computerDIY.diy());
+        System.out.println(computerDIY);
     }
 }
